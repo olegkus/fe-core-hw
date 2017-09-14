@@ -1,0 +1,4 @@
+p {font-family: arial}
+.main_container {width: 700px ;padding: 50px}
+.list_container {display: inline-block;width: 45%}
+li{list-style-type: none;}
