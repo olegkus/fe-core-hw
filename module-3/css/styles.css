@@ -1,4 +1,37 @@
-p {font-family: arial}
-.main_container {width: 700px ;padding: 50px}
+p {font-family: arial; font-size: 12px;}
+.main_container {width: 480px ;padding: 20px 40px 40px 40px; background-color: white; margin-left: auto; margin-right: auto;}
+.main_container_2 {width: 480px ;padding: 20px 40px 20px 40px; background-color: #30455b; margin-left: auto; margin-right: auto;}
 .list_container {display: inline-block;width: 45%}
-li{list-style-type: none;}
+.link-container {display: inline-block; }
+.link_position{text-align: center; text-transform: uppercase; margin-bottom: 40px;}
+.list_none {list-style-type: none;}
+.logo {text-align: center;}
+ol {list-style-image: url("../img/layer_79.png");}
+.list {list-style-image: url("../img/Layer83.png");}
+body{background-image: url("../img/page-bg.png"); font-family: arial;} 
+a {text-decoration: none; color: white;}
+h2{margin-top: 60px; margin-bottom: 30px; font-size: 16px;}
+h3{font-size: 14px;}
+.divid{text-align: center;}
+.border{text-align: center;}
+span{font-size: 10px; margin-left: 170px; margin-bottom: 55px;}
+.autor_name{font-size: 14px; text-align: center;}
+.botton_menu_elements{
+	display: inline-block;
+	text-align: left; 
+	text-transform: uppercase; 
+	color: white; 
+	width: 25%; 
+	font-size: 12px;
+	margin: 15px;
+}
+.contacts {display: inline-block;
+	text-align: left; 
+	text-transform: uppercase; 
+	color: white; 
+	width: 20%; 
+	font-size: 8px;
+	margin: 15px;
+
+}
+.links_social {text-align: center; margin-top: 10px;}
