@@ -1,0 +1,111 @@
+body{background-image: url("../img/page-bg.png"); font-family: arial;}
+.main_container {
+	width: 1000px ;
+	padding: 20px 40px 40px 40px; 
+	background-color: white; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+h3{
+	text-transform: uppercase;
+}
+.first_table{ 
+	width: 740px;
+	float: left;
+}
+.plane{
+	float: left;
+	 margin-right: 20px;
+	}
+.second_table{
+	 width: 250px;
+	 float: right;
+	 margin-bottom: 50px;
+ }
+.line{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+.third_table{
+	width: 740px;
+	float: left;
+	margin-bottom: 30px;
+}
+.third_table::after{
+	clear: both;
+}
+.fourth_table{
+	width: 250px;
+	 float: right;
+}
+.quote::before{
+	content: "\0022";
+}
+.quote::after{
+	content: "\0022";
+
+}
+.autor{
+	text-align: center;
+	margin-bottom: 30px;
+	}
+.autor::after{
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.list_container_first
+	{
+		float: left;
+
+}
+	
+.list_container_second
+{
+	/*float: left;*/
+	display: inline-block;
+}
+.list_container_first::after{
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.main_container_2
+ {
+	width: 1000px ;
+	height: 130px;
+	padding: 20px 40px 20px 40px; 
+	background-color: #30455b;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul li{
+list-style: none; }
+ul li::before {
+	content: "\2192";
+	color: blue;
+}
+/*ol li{
+	list-style: none;
+}*/
+.second_table div:nth-child(2)::before {
+	content: "\2460";
+	float: left;
+	background: blue;
+}
+.second_table div:nth-child(3)::before {
+	content: "\2461";
+	float: left;
+	background: blue;
+}
+.second_table div:nth-child(4)::before {
+	content: "\2462";
+	float: left;
+	background: blue;
+}
