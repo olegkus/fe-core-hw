@@ -66,7 +66,7 @@ span{
 .autor{
 	text-align: center;
 	margin-bottom: 30px;
-	margin-top: 56px;
+	margin-top: 70px;
 	}
 .autor::after{
 	content: ".";
@@ -91,6 +91,7 @@ span{
 	/*float: left;*/
 	display: inline-block;
 	margin-top: 10px;
+	margin-bottom: 47px;
 }
 .list_container_first::after{
 	content: ".";
@@ -110,11 +111,14 @@ span{
 }
 ul li{
 list-style: none;
-padding-bottom: 20px;
+padding-bottom: 25px;
+margin-right: 30px;
+font-size: 14px;
 }
 ul li::before {
 	content: "\2192";
 	color: blue;
+	padding-right: 5px;
 }
 ol li:nth-child(1){
 	list-style: url(../img/11.png);
