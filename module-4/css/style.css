@@ -1,16 +1,28 @@
 body{background-image: url("../img/page-bg.png"); font-family: arial;}
 .main_container {
-	width: 1000px ;
-	padding: 20px 40px 40px 40px; 
+	width: 920px ;
+	padding: 100px 40px 40px 60px; 
 	background-color: white; 
+	margin-top: 20px;
 	margin-left: auto; 
 	margin-right: auto;
+	
 }
 h3{
 	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+h4{
+	font-size: 14px;
+}
+p{
+	font-size: 12px;
+}
+span{
+	font-size: 12px;
 }
 .first_table{ 
-	width: 740px;
+	width: 70%;
 	float: left;
 }
 .plane{
@@ -18,27 +30,31 @@ h3{
 	 margin-right: 20px;
 	}
 .second_table{
-	 width: 250px;
+	 width: 25%;
 	 float: right;
-	 margin-bottom: 50px;
  }
+.second_table::after{
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
 .line{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 50px;
+	padding-top: 25px;
+	margin-bottom: 40px;
 }
 .third_table{
-	width: 740px;
+	width: 70%;
 	float: left;
-	margin-bottom: 30px;
-}
-.third_table::after{
-	clear: both;
 }
 .fourth_table{
-	width: 250px;
+	width: 20%;
 	 float: right;
+	 padding-right: 20px;
 }
 .quote::before{
 	content: "\0022";
@@ -50,6 +66,7 @@ h3{
 .autor{
 	text-align: center;
 	margin-bottom: 30px;
+	margin-top: 56px;
 	}
 .autor::after{
 	content: ".";
@@ -61,13 +78,19 @@ h3{
 .list_container_first
 	{
 		float: left;
+		margin-top: 10px;
 
+}
+.list{
+	padding-left: 0px;
+	padding-right: 50px;
 }
 	
 .list_container_second
 {
 	/*float: left;*/
 	display: inline-block;
+	margin-top: 10px;
 }
 .list_container_first::after{
 	content: ".";
@@ -78,34 +101,46 @@ h3{
 }
 .main_container_2
  {
-	width: 1000px ;
-	height: 130px;
+	width: 940px ;
+	height: 100px;
 	padding: 20px 40px 20px 40px; 
 	background-color: #30455b;
 	margin-left: auto;
 	margin-right: auto;
 }
 ul li{
-list-style: none; }
+list-style: none;
+padding-bottom: 20px;
+}
 ul li::before {
 	content: "\2192";
 	color: blue;
 }
-/*ol li{
-	list-style: none;
-}*/
-.second_table div:nth-child(2)::before {
-	content: "\2460";
+ol li:nth-child(1){
+	list-style: url(../img/11.png);
+}
+ol li:nth-child(2){
+	list-style: url(../img/22.png);
+
+}
+ol li:nth-child(3){
+	list-style: url(../img/33.png);
+}
+/*ol li:nth-child(1)::before {
+	content: url(../img/11.png);
 	float: left;
-	background: blue;
+	
+}
+.second_table div:nth-child(2)::before {
+	content: url(../img/11.png);
+	float: left;
+	
 }
 .second_table div:nth-child(3)::before {
-	content: "\2461";
+	content: url(../img/22.png);
 	float: left;
-	background: blue;
 }
 .second_table div:nth-child(4)::before {
-	content: "\2462";
+	content: url(../img/33.png);
 	float: left;
-	background: blue;
-}
+}*/
