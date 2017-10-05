@@ -15,8 +15,8 @@ body {
 
 .menu_item {
   display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
   margin-top: 100px;
   vertical-align: top;
 }
@@ -53,28 +53,30 @@ content: "";
 	opacity: 1;
 }
 .submenu {
-   opacity: 0;
-  left: -25px;
-  top: 10px;
-  list-style: none;
-  background-color: white;
-  box-shadow: var(--black-alfa2);
-  padding: 10px 5px;
-  font-size: 16px;
+	opacity: 0;
+	left: -25px;
+	top: 10px;
+	list-style: none;
+	background-color: white;
+	box-shadow: var(--black-alfa2);
+	padding: 5px 5px;
+	font-size: 20px;
+	width: 60px;
+	border-radius: 3px;
 }
 
 .menu_item:hover>.submenu {
 	opacity: 1;
-   background-color: white;
+	background-color: white;
 }
 
 .menu_item:hover>a {
-	 color: black;
+	color: black;
 }
 
 .table {
 	width: 1024px;
-	height: 1600px;
+	height: 1170px;
 	margin-left: auto; 
 	margin-right: auto;
 	background-color: white;
@@ -115,7 +117,7 @@ p {
 	height: 60px;
 	line-height: 60px;
 	background-color: white;
-	font-size: 15px;
+	font-size: 25px;
 	font-family: 'Pathway Gothic One';
 	text-transform: uppercase;
 	text-align: center;
@@ -125,7 +127,7 @@ p {
 	height: 60px;
 	line-height: 60px;
 	background-color: #38afe5;
-	font-size: 25px;
+	font-size: 35px;
 	font-family: 'Pathway Gothic One';
 	text-transform: uppercase;
 	text-align: center;
@@ -135,13 +137,13 @@ p {
 .slider_controls {
 	position: absolute;
 	margin-left: 60px;
-	margin-top: 220px;
+	margin-top: 280px;
 }
 
 .img_control {
 	position: absolute;
-	margin-left: 60px;
-	margin-top: 450px;
+	margin-left: 100px;
+	margin-top: 500px;
 }
 
 .destination_card {
