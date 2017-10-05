@@ -1,0 +1,179 @@
+body {
+	background-image: url("../img/layer57.png");
+}
+
+.menu {
+	height: 200px;
+	width: 100%;
+	box-sizing: border-box;
+	list-style: none;
+	text-transform: uppercase;
+	font-size: 28px;
+	text-align: center;
+	font-family: 'Pathway Gothic One';
+}
+
+.menu_item {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 100px;
+  vertical-align: top;
+}
+
+.logo {
+	margin-top: 45px;
+}
+.menu_item > a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+.submenu_item > a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.about:after {
+content: "";
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 5px 5px;
+    border-color: transparent transparent #fff transparent;
+    opacity: 0;
+}
+
+.menu_item:hover>.about:after {
+	opacity: 1;
+}
+.submenu {
+   opacity: 0;
+  left: -25px;
+  top: 10px;
+  list-style: none;
+  background-color: white;
+  box-shadow: var(--black-alfa2);
+  padding: 10px 5px;
+  font-size: 16px;
+}
+
+.menu_item:hover>.submenu {
+	opacity: 1;
+   background-color: white;
+}
+
+.menu_item:hover>a {
+	 color: black;
+}
+
+.table {
+	width: 1024px;
+	height: 1600px;
+	margin-left: auto; 
+	margin-right: auto;
+	background-color: white;
+}
+.first_img {
+	width: 900px;
+	margin-right: 60px;
+	margin-top: 60px;
+	margin-left: 60px;
+	margin-bottom: 60px;
+}
+p {
+	font-size: 25px;
+	font-family: 'Pathway Gothic One';
+	margin-top: 0px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.destanations {
+	margin-left: 60px;
+	font-size: 25px;
+	font-family: 'Pathway Gothic One';
+	margin-top: 0px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.secon_table {
+	margin-top: 60px;
+	margin-left: 60px;
+}
+.second_img {
+	margin-right: 15px;
+}
+.first_box {
+	width: 220px;
+	height: 60px;
+	line-height: 60px;
+	background-color: white;
+	font-size: 15px;
+	font-family: 'Pathway Gothic One';
+	text-transform: uppercase;
+	text-align: center;
+}
+.second_box {
+	width: 275px;
+	height: 60px;
+	line-height: 60px;
+	background-color: #38afe5;
+	font-size: 25px;
+	font-family: 'Pathway Gothic One';
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+
+.slider_controls {
+	position: absolute;
+	margin-left: 60px;
+	margin-top: 220px;
+}
+
+.img_control {
+	position: absolute;
+	margin-left: 60px;
+	margin-top: 450px;
+}
+
+.destination_card {
+	opacity: 0;
+	position: absolute;
+	width: 150px;
+	height: 270px;
+	background-color: #193149;
+	font-family: 'Pathway Gothic One';
+	color: white;
+}
+
+.destination_card:hover {
+	opacity: 1;
+}
+ 
+.text {
+	font-size: 15px;
+	margin-left: 10px;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+button {
+	border-radius: 5px;
+	margin-left: 70px;
+	margin-top: 20px;
+	width: 60px
+}
+
+.to_top {
+	position: fixed;
+	margin-top: 400px;
+	margin-left: 979px;
+}
