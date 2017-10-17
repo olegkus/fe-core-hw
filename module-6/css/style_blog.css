@@ -261,46 +261,6 @@ button {
 	text-decoration: none;
 }
 
-/*.social_network_link_second {
-	display: flex;
-    justify-content: center;
-    align-content: space-between;
-    flex-wrap: wrap;
-    
-   }*/
-
-/*.soc {
-	display: inline-block;
-    background: url(../img/css_sprites.png) no-repeat;
-    height: 40px;
-    width: 40px;
-	background-position: -10px 0px;
-
-}
-.soci {
-	display: inline-block;
-    background: url(../img/css_sprites.png) no-repeat;
-    height: 40px;
-    width: 40px;
-	background-position: -50px 0px;
-}
-.socia {
-	display: inline-block;
-    background: url(../img/css_sprites.png) no-repeat;
-    height: 40px;
-    width: 40px;
-	background-position: -100px 0px;
-
-
-}
-.social {
-	display: inline-block;
-    background: url(../img/css_sprites.png) no-repeat;
-    height: 40px;
-    width: 40px;
-	background-position: -130px 0px;
-
-}*/
 
 .date_circle  {
 	border-radius: 50%;
@@ -317,6 +277,45 @@ button {
 	margin-right: 25px;
 }
 
+.social_network {
+	margin-right: auto;
+	margin-left: auto;
+	width: 200px;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0px;
+}
+
+.social_network li, .social_network a {
+	height: 40px;
+	display: block;
+}
+.facebook {
+	left: 0px;
+	width: 40px;
+	background: url(../img/css_sprites.png) -10px -10px;
+}
+
+.google {
+	left: 0px;
+	width: 40px;
+	background: url(../img/css_sprites.png) -70px -10px;
+}
+.linkedin {
+	left: 0px;
+	width: 40px;
+	background: url(../img/css_sprites.png) -130px -10px;
+}
+.twitter {
+	left: 0px;
+	width: 40px;
+	background: url(../img/css_sprites.png) -190px -10px;
+}
+
+.social_network li:hover {
+	filter: brightness(0.5);
+}
 .social_network {
 	margin-right: auto;
 	margin-left: auto;
