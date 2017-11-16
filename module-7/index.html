@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Dorsa" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet" >
 	<link rel="stylesheet" href="css/style.css">
@@ -59,13 +60,39 @@
 				</div>
 				<div class="img_control">
 					<a class="slider" href="">
-						 <img src="img/Layer 391.png" alt="" >
+						 <img src="img/Layer 391.png" alt="" class="prev" >
 					</a>
 					<a class="slider" href="">
-						<img src="img/Layer 392.png" alt="" >
+						<img src="img/Layer 392.png" alt="" class="next">
 					</a>
 				</div>
-			<img class="first_img" src="img/layer6.png" alt="">
+				<div class="slider-wrapper">
+					<div class="slide">
+						<img class="first_img" src="img/layer6.png" alt="">
+						<div class="slider_controls">
+					<div class="first_box">
+						<span>the are plenty of places</span>
+					</div>
+					<div class="second_box">
+						<span>that are worth seeing</span>
+					</div>
+				</div>
+				<div class="img_control">
+					<a class="slider" href="">
+						 <img src="img/Layer 391.png" alt="" class="prev" >
+					</a>
+					<a class="slider" href="">
+						<img src="img/Layer 392.png" alt="" class="next">
+					</a>
+				</div>
+					</div>
+					<div class="slide">
+						<img class="first_img" src="img/layer 521.png" alt="">
+					</div>
+					<div class="slide">
+						<img class="first_img" src="img/layer 531.png" alt="">
+					</div>
+				</div>
 			
 			<div class="secon_table">
 				<h3>top destinations</h3>
@@ -149,6 +176,13 @@
 		</ul>
 	</div>
 	</footer>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="css/slick.min.js"></script>
+	<script>
+		$('.slider-wrapper').slick({
+			prevArrow: $(".prev"),
+			nextArrow: $(".next")
+		});
+	</script>
 </body>
 </html>

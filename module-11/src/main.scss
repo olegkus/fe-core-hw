@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	transition: all .4s;
+}
+@import 'header/_header.scss';
+@import 'main/_main-content.scss';
+@import 'footer/_footer-content.scss';
+@import 'social-links/_social-links.scss';
+
+body {
+	background-image: url(../assets/backg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
